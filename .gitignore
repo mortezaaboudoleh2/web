@@ -1,0 +1,44 @@
+# وابستگی‌ها
+node_modules/
+jspm_packages/
+
+# محیط
+.env
+.env.local
+.env.*.local
+
+# داده‌های کاربر (پاسخ‌های واقعی نباید کامیت شوند)
+data/
+!data/.gitkeep
+
+# لاگ‌ها
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# پوشش تست
+coverage/
+.nyc_output/
+
+# سیستم‌عامل
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ویرایشگر
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# موقت
+tmp/
+temp/
+*.tmp
+dist/
+build/

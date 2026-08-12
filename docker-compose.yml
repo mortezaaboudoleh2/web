@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: hana-love
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+      DATA_DIR: /app/data
+      ADMIN_USER: ${ADMIN_USER:-admin}
+      ADMIN_PASS: ${ADMIN_PASS:?ADMIN_PASS الزامی است}
+    volumes:
+      - ./data:/app/data

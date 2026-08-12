@@ -1,0 +1,42 @@
+{
+  "name": "hana-love",
+  "version": "1.0.0",
+  "description": "یک وب‌اپ عاشقانه‌ی تک‌صفحه‌ای با تم نئون برای عذرخواهی، آشتی و پرسیدن چند سوال — به همراه پنل ادمین برای دیدن پاسخ‌ها.",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/",
+    "lint": "eslint src test",
+    "format": "prettier --write \"**/*.{js,json,md,html}\""
+  },
+  "keywords": [
+    "valentine",
+    "love-letter",
+    "neon",
+    "express",
+    "persian",
+    "rtl"
+  ],
+  "author": "Morteza",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/hana-love.git"
+  },
+  "bugs": {
+    "url": "https://github.com/USERNAME/hana-love/issues"
+  },
+  "homepage": "https://github.com/USERNAME/hana-love#readme"
+}
